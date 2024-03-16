@@ -12,6 +12,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
     private List<MusicTrack> trackList;
 
     public MusicAdapter(List<MusicTrack> trackList) {
+
         this.trackList = trackList;
     }
 
